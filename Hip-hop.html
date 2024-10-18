@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hip-Hop Dance</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #8d36ff;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #d400ff;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header h1 {
+        font-size: 2.5em;
+        color: white;
+    }
+    
+    nav {
+        background-color: hsl(295, 100%, 62%);
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 30px;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+        background-color: #ce00e9;
+    }
+    
+    main {
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+    }
+    
+    section {
+        margin-bottom: 30px;
+    }
+    
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        max-width: 100%;
+        background-color: #00dd9b;
+    }
+    
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Hip-Hop Dance</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#popular-moves">Popular Moves</a></li>
+        <li><a href="#performance">Watch Performance</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>What is Hip-Hop?</h2>
+        <p>Hip-hop is a cultural movement and artistic expression that emerged in the Bronx, New York City, during the early 1970s. It is characterized by four main elements: DJing, MCing (rapping), graffiti art, and breakdancing. DJing involves mixing and scratching records on turntables to create new music and beats, while MCing, or rapping, is the rhythmic and poetic vocal delivery that often focuses on storytelling, social commentary, or personal expression. Graffiti art is a visual form of art, usually created in public spaces, using bold colors and styles to convey messages or represent personal or group identities. Breakdancing, a dynamic style of street dance, features athletic movements, spins, and freezes performed to the beats created by DJs.</p>
+    </section>
+
+    <section id="history">
+        <h2>History of Hip-Hop</h2>
+        <p>Hip-hop originated in the Bronx, New York City, during the early 1970s, born from the cultural, social, and economic conditions faced by African American and Latino communities. It emerged as a creative response to the urban environment, combining elements of music, dance, and visual art to form a new, distinct cultural movement. The roots of hip-hop can be traced to block parties, where DJs like Kool Herc, Afrika Bambaataa, and Grandmaster Flash pioneered the technique of "break-beat" DJing, isolating and extending the instrumental breaks of funk, soul, and disco songs to keep people dancing. These breaks became the foundation for breakdancing, or "b-boying," which evolved into a unique street dance style characterized by acrobatic moves, spins, and intricate footwork.</p>
+    </section>
+
+    <section id="popular-moves">
+        <h2>Popular Moves in Hip-Hop</h2>
+        <ul>
+            <li><strong>The Camel Walk</strong> - The Camel Walk is one of the basic B-boying moves...</li>
+            <li><strong>The Moon Walk</strong> - The Moon Walk - the very mention of the term brings forth...</li>
+            <li><strong>The Mashed Potato</strong> - A simple swing-your-heels-in-and-out followed by a low sidekick...</li>
+            <!-- More moves here -->
+        </ul>
+    </section>
+
+    <section id="performance">
+        <h2>Watch a Hip-Hop Dance Performance</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/watch?v=sgr652RjMGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
